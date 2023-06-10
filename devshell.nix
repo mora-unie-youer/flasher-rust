@@ -9,7 +9,7 @@ pkgs.devShell.mkShell {
 
     # Nightly Rust toolchain
     bacon
-    flamegraph
+    cargo-flamegraph
     hyperfine
     (rust-bin.selectLatestNightlyWith (toolchain: toolchain.default.override {
       # Extensions which ease your development process
